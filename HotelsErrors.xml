@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Error 1: Root element is Hotel instead of Hotels -->
+<Hotel>
+	<Hotel Rating="4.2">
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E.7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Error 2: NearestAirport required attribute is missing -->
+	<Hotel Rating="4.5">
+		<Name>Marriott Phoenix Resort Tempe at The Buttes</Name>
+		<Phone>602-225-9000</Phone>
+		<Address>
+			<Number>2000</Number>
+			<Street>W Westcourt Way</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85282</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Hyatt Regency Phoenix</Name>
+		<Phone>602-252-1234</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>122</Number>
+			<Street>North Second Street</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Error 3: Phone element is missing -->
+	<Hotel Rating="5.0">
+		<Name>Arizona Biltmore</Name>
+		<Address NearestAirport="Sky Harbor">
+			<Number>2400</Number>
+			<Street>E Missouri Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85016</Zip>
+		</Address>
+	</Hotel>
+
+	<!-- Error 4: Address element has no closing tag -->
+	<Hotel Rating="3.8">
+		<Name>Hotel Valley Ho</Name>
+		<Phone>480-376-2600</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>6850</Number>
+			<Street>E Main St</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85251</Zip>
+		</Hotel>
+
+	<!-- Error 5: Two names are provided for one hotel -->
+	<Hotel>
+		<Name>Renaissance Phoenix Downtown Hotel</Name>
+		<Name>Renaissance Hotel</Name>
+		<Phone>602-333-0000</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>100</Number>
+			<Street>N 1st St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.7">
+		<Name>Kimpton Hotel Palomar Phoenix</Name>
+		<Phone>602-253-6633</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>2</Number>
+			<Street>E Jefferson St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+</Hotel>
