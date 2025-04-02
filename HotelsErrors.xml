@@ -5,7 +5,7 @@
 		<Name>Westin</Name>
 		<Phone>480-968-8885</Phone>
 		<Phone>800-937-8461</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearstAirport="Sky Harbor">
 			<Number>11</Number>
 			<Street>E.7th St</Street>
 			<City>Tempe</City>
@@ -14,7 +14,7 @@
 		</Address>
 	</Hotel>
 
-	<!-- Error 2: NearestAirport required attribute is missing -->
+	<!-- Error 2: NearstAirport required attribute is missing -->
 	<Hotel Rating="4.5">
 		<Name>Marriott Phoenix Resort Tempe at The Buttes</Name>
 		<Phone>602-225-9000</Phone>
@@ -30,7 +30,7 @@
 	<Hotel>
 		<Name>Hyatt Regency Phoenix</Name>
 		<Phone>602-252-1234</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearstAirport="Sky Harbor">
 			<Number>122</Number>
 			<Street>North Second Street</Street>
 			<City>Phoenix</City>
@@ -42,7 +42,7 @@
 	<!-- Error 3: Phone element is missing -->
 	<Hotel Rating="5.0">
 		<Name>Arizona Biltmore</Name>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearstAirport="Sky Harbor">
 			<Number>2400</Number>
 			<Street>E Missouri Ave</Street>
 			<City>Phoenix</City>
@@ -55,7 +55,7 @@
 	<Hotel Rating="3.8">
 		<Name>Hotel Valley Ho</Name>
 		<Phone>480-376-2600</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearstAirport="Sky Harbor">
 			<Number>6850</Number>
 			<Street>E Main St</Street>
 			<City>Scottsdale</City>
@@ -68,7 +68,7 @@
 		<Name>Renaissance Phoenix Downtown Hotel</Name>
 		<Name>Renaissance Hotel</Name>
 		<Phone>602-333-0000</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearstAirport="Sky Harbor">
 			<Number>100</Number>
 			<Street>N 1st St</Street>
 			<City>Phoenix</City>
@@ -80,7 +80,7 @@
 	<Hotel Rating="4.7">
 		<Name>Kimpton Hotel Palomar Phoenix</Name>
 		<Phone>602-253-6633</Phone>
-		<Address NearestAirport="Sky Harbor">
+		<Address NearstAirport="Sky Harbor">
 			<Number>2</Number>
 			<Street>E Jefferson St</Street>
 			<City>Phoenix</City>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-	<!-- Define root element TEST-->
+	<!-- Define root element -->
 	<xs:element name="Hotels">
 		<xs:complexType>
 			<xs:sequence>
@@ -29,7 +29,7 @@
 			<xs:element name="State" type="xs:string"/>
 			<xs:element name="Zip" type="xs:string"/>
 		</xs:sequence>
-		<xs:attribute name="NearestAirport" type="xs:string" use="required"/>
+		<xs:attribute name="NearstAirport" type="xs:string" use="required"/>
 	</xs:complexType>
 
 </xs:schema>
