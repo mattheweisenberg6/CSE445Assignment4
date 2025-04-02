@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Hotels>
-	<!-- Sample hotel from Figure 1 -->
+	<!-- sample hotel from figure 1 -->
 	<Hotel Rating="4.2">
 		<Name>Westin</Name>
 		<Phone>480-968-8885</Phone>
@@ -14,7 +14,7 @@
 		</Address>
 	</Hotel>
 
-	<!-- Additional 10 real hotels -->
+	<!-- additional 10 real hotels -->
 	<Hotel Rating="4.5">
 		<Name>Marriott Phoenix Resort Tempe at The Buttes</Name>
 		<Phone>602-225-9000</Phone>

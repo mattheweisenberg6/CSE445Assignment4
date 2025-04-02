@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-	<!-- Define root element -->
+	<!-- define root -->
 	<xs:element name="Hotels">
 		<xs:complexType>
 			<xs:sequence>
@@ -10,7 +10,7 @@
 		</xs:complexType>
 	</xs:element>
 
-	<!-- Define HotelType -->
+	<!-- define HotelType -->
 	<xs:complexType name="HotelType">
 		<xs:sequence>
 			<xs:element name="Name" type="xs:string"/>
@@ -20,7 +20,7 @@
 		<xs:attribute name="Rating" type="xs:decimal" use="optional"/>
 	</xs:complexType>
 
-	<!-- Define AddressType -->
+	<!-- define AddressType -->
 	<xs:complexType name="AddressType">
 		<xs:sequence>
 			<xs:element name="Number" type="xs:string"/>
